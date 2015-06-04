@@ -45,26 +45,33 @@ and open the template in the editor.
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">Sexo</label>
                         <div class="col-sm-10">
-                            <input type="Sexo" class="form-control" id="inputEmail3" placeholder="Sexo">
+                               <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                    masculino
+                                </label>
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option2" checked>
+                                    feminino
+                                </label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox"> Remember me
-                                </label>
+                                        <input type="checkbox" checked> ativo
+                                    </label>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-default">Sign in</button>
+                      <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-success">entra</button>
+                            </div>
                         </div>
-                    </div>
                 </form>
             </div>
-            <div class="col-md-6">.col-md-6</div>
+            <div class="col-md-6">.listagem de pessoas</div>
         </div>
 </html>
 
